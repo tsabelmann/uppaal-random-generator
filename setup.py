@@ -19,7 +19,7 @@ setuptools.setup(
     description="Uppaal random model generator including a CLI tool.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tsabelmann/uppaal_random_generator",
+    url="https://github.com/tsabelmann/uppaal-random-generator",
     python_requires=">=3.8",
     install_requires=install_requires,
     py_modules=[
