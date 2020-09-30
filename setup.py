@@ -22,13 +22,12 @@ setuptools.setup(
     url="https://github.com/tsabelmann/uppaal-random-generator",
     python_requires=">=3.8",
     install_requires=install_requires,
-    py_modules=[
-        'main'
-    ],
     entry_points={
         "console_scripts": [
-            "uppaal-random-generator = main:main",
-            "uppaal_random_generator = main:main"
+            "uppaal-random-generator = uppaal_random_generator.uppaal_random_generator:main",
+            "uppaal_random_generator = uppaal_random_generator.uppaal_random_generator:main",
+            "uppaal-rng = uppaal_random_generator.uppaal_random_generator:main",
+            "uppaal_rng = uppaal_random_generator.uppaal_random_generator:main"
         ]
     }
 )
